@@ -38,7 +38,7 @@ public class WordCount {
         System.out.println("Total word count: " + totalWordCount);
         System.out.println("Word count after filtering: " + filteredWordCount);
 
-        // Optional: Count frequency of each word
+        
         Map<String, Integer> wordFrequency = new HashMap<>();
         for (String word : words) {
             wordFrequency.put(word, wordFrequency.getOrDefault(word, 0) + 1);
